@@ -12,9 +12,9 @@ int main(void)
 
 	for (i = 48; i < 58; i++)
 	{
-		for (j = 48; j < 58; j++)
+		for (j = 49; j < 58; j++)
 		{
-			for (k = 48; k < 58; k++)
+			for (k = 50; k < 58; k++)
 			{
 				if (k > j && j > i)
 				{
@@ -22,7 +22,7 @@ int main(void)
 					putchar(j);
 					putchar(k);
 				}
-				if (i != 53 || k != 54)
+				if (i != 55 || j != 56)
 				{
 					putchar(',');
 					putchar(' ');
