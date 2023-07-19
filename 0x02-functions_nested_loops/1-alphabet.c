@@ -1,4 +1,4 @@
-#include "main_h"
+#include "main.h"
 /**
  * print_alphabet - print alphabet in lower case
  *
