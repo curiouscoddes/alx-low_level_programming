@@ -23,6 +23,7 @@ int sqrt_recursion(int n, int i)
 	if (i * i > n)
 		return (-1);
 	if (i * i == n)
-		return (1);
-	return (sqrt_recursion(n, i + 1));
+		return (i);
+	else
+		return (sqrt_recursion(n, i + 1));
 }
