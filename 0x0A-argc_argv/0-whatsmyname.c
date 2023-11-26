@@ -1,18 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "main.h"
 /**
  * main - the main function
  * @argc: argument count parameter
  * @argv: argument vector parameter
  * Return: always 0 success
  */
-int main(int argc, char *argv[])
+int main(int argc __attribute__((unused)), char *argv[])
 {
-	int i;
-
-	for (i = 0; i < argc; i++)
-	{
-		printf("%s\n", argv[0]);
-	}
+	printf("%s\n", *argv);
 	return (0);
 }
